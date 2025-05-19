@@ -1,0 +1,19 @@
+git-repos:
+  core-xml-schemas:
+    ui-name: XML Schemas
+    ui-location: /
+    app-store-location: /Core/
+    url: https://github.com/gchq/stroom-content.git
+    branch: planb
+    path: source/core-xml-schemas/stroomContent
+    commit: e4081362f006bed7f14f376a2049ccbcb56b1144
+  standard-pipelines:
+    ui-name: Standard Pipelines
+    ui-location: /
+    app-store-location: /Examples/
+    url: https://github.com/gchq/stroom-content.git
+    branch: planb
+    path: source/standard-pipelines/stroomContent
+    commit: e4081362f006bed7f14f376a2049ccbcb56b1144
+      dependencies:
+        - core-xml-schemas
