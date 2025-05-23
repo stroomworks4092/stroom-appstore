@@ -1,6 +1,7 @@
 gitRepos:
   core-xml-schemas:
     uiName: XML Schemas
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/core-xml-schemas.svg
     licenseName: Apache 2
     gitUrl: https://github.com/gchq/stroom-content.git
     gitBranch: planb
@@ -8,6 +9,7 @@ gitRepos:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
   standard-pipelines:
     uiName: Standard Pipelines
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
     gitUrl: https://github.com/gchq/stroom-content.git
     gitBranch: planb
     gitPath: source/standard-pipelines/stroomContent
