@@ -3,6 +3,15 @@ gitRepos:
     uiName: XML Schemas
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/core-xml-schemas.svg
     licenseName: Apache 2
+    stroomPath: /
+    details: |
+      # Basic XML Schemas
+
+      - One
+      - Two
+      - Three
+
+      You probably need this.
     gitUrl: https://github.com/gchq/stroom-content.git
     gitBranch: planb
     gitPath: source/core-xml-schemas/stroomContent
@@ -10,6 +19,15 @@ gitRepos:
   standard-pipelines:
     uiName: Standard Pipelines
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    stroomPath: /
+    details: |
+      # Example Pipelines
+
+      - One
+      - Two
+      - Three
+
+      Useful to pull in and study.
     gitUrl: https://github.com/gchq/stroom-content.git
     gitBranch: planb
     gitPath: source/standard-pipelines/stroomContent
