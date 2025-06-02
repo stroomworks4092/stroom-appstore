@@ -3,6 +3,7 @@ gitRepos:
     uiName: XML Schemas
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/core-xml-schemas.svg
     licenseName: Apache 2
+    licenseUrl: https://www.apache.org/licenses/LICENSE-2.0
     stroomPath: /
     details: |
       # Basic XML Schemas
@@ -19,6 +20,8 @@ gitRepos:
   standard-pipelines:
     uiName: Standard Pipelines
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: GPLv2
+    licenseUrl: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
     stroomPath: /
     details: |
       # Example Pipelines
