@@ -1,5 +1,11 @@
-gitRepos:
-  core-xml-schemas:
+uiName: Stroomworks
+ownerUrl: https://www.stroomworks.com/
+ownerDescription: |
+    Stroomworks provides enterprise support and professional services for Stroom.
+
+contentPacks:
+  -
+    stroomName: core-xml-schemas
     uiName: XML Schemas
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/core-xml-schemas.svg
     licenseName: Apache 2.0
@@ -14,7 +20,8 @@ gitRepos:
     gitPath: source/core-xml-schemas/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  standard-pipelines:
+  -
+    stroomName: standard-pipelines:
     uiName: Standard Pipelines
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
     licenseName: Apache 2.0
@@ -29,7 +36,8 @@ gitRepos:
     gitPath: source/standard-pipelines/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  event-logging-xml-schema:
+  -
+    stroomName: event-logging-xml-schema:
     uiName: Event Logging XML Schema
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/event-logging-xml-schema.svg
     licenseName: Apache 2.0
@@ -44,7 +52,8 @@ gitRepos:
     gitPath: source/event-logging-xml-schema/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  example-index:
+  -
+    stroomName: example-index:
     uiName: Example Index
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/example-index.svg
     licenseName: Apache 2.0
@@ -59,7 +68,8 @@ gitRepos:
     gitPath: source/example-index/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  internal-dashboards:
+  -
+    stroomName: internal-dashboards:
     uiName: Internal Dashboards
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-dashboards.svg
     licenseName: Apache 2.0
@@ -76,7 +86,8 @@ gitRepos:
     gitPath: source/internal-dashboards/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  internal-statistics-sql:
+  -
+    stroomName: internal-statistics-sql:
     uiName: SQL
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-statistics-sql.svg
     licenseName: Apache 2.0
@@ -93,7 +104,8 @@ gitRepos:
     gitPath: source/internal-statistics-sql/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  internal-statistics-stroom-stats:
+  -
+    stroomName: internal-statistics-stroom-stats:
     uiName: Stroom-Stats
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-statistics-stroom-stats.svg
     licenseName: Apache 2.0
@@ -109,7 +121,8 @@ gitRepos:
     gitPath: source/internal-statistics-stroom-stats/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  stroom-101:
+  -
+    stroomName: stroom-101:
     uiName: Stroom 101
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/stroom-101.svg
     licenseName: Apache 2.0
@@ -130,7 +143,8 @@ gitRepos:
     gitPath: source/stroom-101/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  stroom-logs:
+  -
+    stroomName: stroom-logs:
     uiName: Internal Logs
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/stroom-logs.svg
     licenseName: Apache 2.0
@@ -143,7 +157,8 @@ gitRepos:
     gitPath: source/stroom-logs/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  template-pipelines:
+  -
+    stroomName: template-pipelines:
     uiName: Template Pipelines
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/template-pipelines.svg
     licenseName: Apache 2.0
@@ -158,7 +173,8 @@ gitRepos:
     gitPath: source/template-pipelines/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  state:
+  -
+    stroomName: state:
     uiName: State
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/state.svg
     licenseName: Apache 2.0
@@ -171,7 +187,8 @@ gitRepos:
     gitPath: source/state/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  planb:
+  -
+    stroomName: planb:
     uiName: Plan B
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/planb.svg
     licenseName: Apache 2.0
@@ -184,7 +201,8 @@ gitRepos:
     gitPath: source/planb/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
-  stroom-visualisations:
+  -
+    stroomName: stroom-visualisations:
     uiName: Visualisations
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/stroom-visualisations.svg
     licenseName: Apache 2.0
