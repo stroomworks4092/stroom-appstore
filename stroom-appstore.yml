@@ -88,7 +88,8 @@ contentPacks:
 
   -
     stroomName: internal-statistics-sql
-    uiName: SQL
+    uiName: Internal Statistics (SQL)
+    gitRepoName: SQL
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-statistics-sql.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
