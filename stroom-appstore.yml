@@ -1,6 +1,7 @@
-uiName: Stroomworks
-ownerUrl: https://www.stroomworks.com/
-ownerDescription: |
+meta:
+  ownerName: Stroomworks
+  ownerUrl: https://www.stroomworks.com/
+  ownerDescription: |
     Stroomworks provides enterprise support and professional services for Stroom.
 
 contentPacks:
