@@ -3,10 +3,13 @@ meta:
   ownerUrl: https://www.stroomworks.com/
   ownerDescription: |
     Stroomworks provides enterprise support and professional services for Stroom.
+  authContact:
+    Contact us at [contact@stroomworks.com](mailto:contact@stroomworks.com?subject=Content%20Store)
+    for authentication credentials.
 
 contentPacks:
   -
-    stroomName: core-xml-schemas
+    id: core-xml-schemas
     uiName: XML Schemas
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/core-xml-schemas.svg
     licenseName: Apache 2.0
@@ -22,7 +25,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: standard-pipelines
+    id: standard-pipelines
     uiName: Standard Pipelines
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
     licenseName: Apache 2.0
@@ -38,7 +41,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: event-logging-xml-schema
+    id: event-logging-xml-schema
     uiName: Event Logging XML Schema
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/event-logging-xml-schema.svg
     licenseName: Apache 2.0
@@ -54,7 +57,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: example-index
+    id: example-index
     uiName: Example Index
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/example-index.svg
     licenseName: Apache 2.0
@@ -70,7 +73,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: internal-dashboards
+    id: internal-dashboards
     uiName: Internal Dashboards
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-dashboards.svg
     licenseName: Apache 2.0
@@ -88,7 +91,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: internal-statistics-sql
+    id: internal-statistics-sql
     uiName: Internal Statistics (SQL)
     gitRepoName: SQL
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-statistics-sql.svg
@@ -107,7 +110,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: internal-statistics-stroom-stats
+    id: internal-statistics-stroom-stats
     uiName: Stroom-Stats
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-statistics-stroom-stats.svg
     licenseName: Apache 2.0
@@ -124,7 +127,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: stroom-101
+    id: stroom-101
     uiName: Stroom 101
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/stroom-101.svg
     licenseName: Apache 2.0
@@ -146,7 +149,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: stroom-logs
+    id: stroom-logs
     uiName: Internal Logs
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/stroom-logs.svg
     licenseName: Apache 2.0
@@ -160,7 +163,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: template-pipelines
+    id: template-pipelines
     uiName: Template Pipelines
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/template-pipelines.svg
     licenseName: Apache 2.0
@@ -176,7 +179,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: state
+    id: state
     uiName: State
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/state.svg
     licenseName: Apache 2.0
@@ -190,7 +193,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: planb
+    id: planb
     uiName: Plan B
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/planb.svg
     licenseName: Apache 2.0
@@ -204,7 +207,7 @@ contentPacks:
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
-    stroomName: stroom-visualisations
+    id: stroom-visualisations
     uiName: Visualisations
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/stroom-visualisations.svg
     licenseName: Apache 2.0
