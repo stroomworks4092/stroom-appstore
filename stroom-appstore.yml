@@ -1,29 +1,68 @@
+# Metadata about the content store
 meta:
+  # ID uniquely identifies this content store
+  ownerId: stroomworks.com
+
+  # Name of content store as displayed in UI
   ownerName: Stroomworks
+
+  # URL for further information
   ownerUrl: https://www.stroomworks.com/
+
+  # Description of the owner of this content store, in Markdown.
   ownerDescription: |
     Stroomworks provides enterprise support and professional services for Stroom.
 
+  # If a content pack is marked gitNeedsAuth:true, this Markdown is displayed
+  # so users know where to get credentials from.
   authContact:
     Contact us at [contact@stroomworks.com](mailto:contact@stroomworks.com?subject=Content%20Store)
     for authentication credentials.
 
+# List of content packs
 contentPacks:
   -
+    # Unique ID within the content store
     id: core-xml-schemas
+
+    # Name as shown in the UI
     uiName: XML Schemas
+
+    # Where to get the icon. Must be SVG.
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/core-xml-schemas.svg
+
+    # Name of the license
     licenseName: Apache 2.0
+
+    # Link to the full license
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+
+    # Where this will be installed in Stroom
     stroomPath: /
+
+    # Name of the Git Repo item to create. Defaults to the uiName.
+    gitRepoName: XML Schemas
+
+    # Markdown description of the content pack
     details: |
       # Core XML Schemas
 
       The core XML Schemas required by Stroom for basic operation.
+
+    # Git repository URL
     gitUrl: https://github.com/gchq/stroom-content.git
+
+    # Branch within repository
     gitBranch: planb
+
+    # Path within repository
     gitPath: source/core-xml-schemas/stroomContent
+
+    # Hash of commit to pull
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+    # Whether git needs authentication to pull this content pack. Default is false.
+    gitNeedsAuth: false
 
   -
     id: standard-pipelines
