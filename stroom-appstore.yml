@@ -4,15 +4,9 @@ meta:
   ownerDescription: |
     Stroomworks provides enterprise support and professional services for Stroom.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim a risus posuere efficitur. Quisque ullamcorper odio facilisis pharetra tempor. Quisque dictum, est vitae ultrices mattis, orci felis tempus ipsum, ac suscipit elit tortor consectetur risus. Praesent at purus porttitor, elementum purus eu, condimentum mi. Donec elit augue, scelerisque ut nunc vitae, luctus condimentum ligula. Sed ac nibh aliquam nisl mollis commodo.
-
-    Proin venenatis diam magna, at vestibulum tellus tincidunt sit amet. Suspendisse fringilla nisl dui, sit amet egestas tellus iaculis quis. Sed porttitor, odio commodo facilisis congue, dolor velit feugiat nibh, sed eleifend nunc ante id purus. Vestibulum non nunc lorem. Nulla facilisi. Phasellus cursus ante est, ut congue dui hendrerit non. Sed ac ligula vitae eros dignissim blandit. Morbi id nisi posuere, pulvinar lacus in, imperdiet leo. Proin non nulla ac magna efficitur dictum. Suspendisse pulvinar enim quis neque luctus dignissim.
-
   authContact:
     Contact us at [contact@stroomworks.com](mailto:contact@stroomworks.com?subject=Content%20Store)
-    for authentication credentials. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim a risus posuere efficitur.
-
-    Quisque ullamcorper odio facilisis pharetra tempor. Quisque dictum, est vitae ultrices mattis, orci felis tempus ipsum, ac suscipit elit tortor consectetur risus. Praesent at purus porttitor, elementum purus eu, condimentum mi. Donec elit augue, scelerisque ut nunc vitae, luctus condimentum ligula. Sed ac nibh aliquam nisl mollis commodo. Proin venenatis diam magna, at vestibulum tellus tincidunt sit amet. Suspendisse fringilla nisl dui, sit amet egestas tellus iaculis quis. Sed porttitor, odio commodo facilisis congue, dolor velit feugiat nibh, sed eleifend nunc ante id purus. Vestibulum non nunc lorem. Nulla facilisi. Phasellus cursus ante est, ut congue dui hendrerit non. Sed ac ligula vitae eros dignissim blandit. Morbi id nisi posuere, pulvinar lacus in, imperdiet leo. Proin non nulla ac magna efficitur dictum. Suspendisse pulvinar enim quis neque luctus dignissim.
+    for authentication credentials.
 
 contentPacks:
   -
