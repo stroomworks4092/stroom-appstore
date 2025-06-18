@@ -49,6 +49,8 @@ contentPacks:
 
       The core XML Schemas required by Stroom for basic operation.
 
+      Lorem Ipsum.
+
     # Git repository URL
     gitUrl: https://github.com/gchq/stroom-content.git
 
