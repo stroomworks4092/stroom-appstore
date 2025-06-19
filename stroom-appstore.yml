@@ -49,8 +49,6 @@ contentPacks:
 
       The core XML Schemas required by Stroom for basic operation.
 
-      Lorem Ipsum.
-
     # Git repository URL
     gitUrl: https://github.com/gchq/stroom-content.git
 
@@ -61,7 +59,7 @@ contentPacks:
     gitPath: source/core-xml-schemas/stroomContent
 
     # Hash of commit to pull
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144x
 
     # Whether git needs authentication to pull this content pack. Default is false.
     gitNeedsAuth: false
