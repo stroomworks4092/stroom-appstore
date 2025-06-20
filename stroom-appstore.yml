@@ -319,22 +319,6 @@ contentPacks:
       A placeholder to test the Content Store
     gitUrl: https://github.com/gchq/stroom-content.git
     gitBranch: planb
-    gitPath: source/test1/stroomContent
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
-
-  -
-    id: test-2
-    uiName: Test 2
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
-    licenseName: Apache 2.0
-    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
-    stroomPath: /
-    details: |
-      # Test 2
-
-      A placeholder to test the Content Store
-    gitUrl: https://github.com/gchq/stroom-content.git
-    gitBranch: planb
     gitPath: source/test2/stroomContent
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
