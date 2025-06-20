@@ -290,3 +290,163 @@ contentPacks:
     gitCommit: d95c1588bc13a697a818bffea6ed213239a1f993
     gitNeedsAuth: true
 
+  -
+    id: test-1
+    uiName: Test 1
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 1
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test1/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+  -
+    id: test-2
+    uiName: Test 2
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 2
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test1/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+  -
+    id: test-2
+    uiName: Test 2
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 2
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test2/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+  -
+    id: test-3
+    uiName: Test 3
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 3
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test3/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+  -
+    id: test-4
+    uiName: Test 4
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 1
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test4/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+  -
+    id: test-5
+    uiName: Test 5
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 5
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test5/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+  -
+    id: test-6
+    uiName: Test 6
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 6
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test6/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+  -
+    id: test-7
+    uiName: Test 7
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 7
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test7/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+  -
+    id: test-8
+    uiName: Test 8
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 8
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test8/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
+  -
+    id: test-9
+    uiName: Test 9
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    licenseName: Apache 2.0
+    licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
+    stroomPath: /
+    details: |
+      # Test 9
+
+      A placeholder to test the Content Store
+    gitUrl: https://github.com/gchq/stroom-content.git
+    gitBranch: planb
+    gitPath: source/test9/stroomContent
+    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+
