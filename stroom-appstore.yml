@@ -56,7 +56,7 @@ contentPacks:
     gitBranch: planb
 
     # Path within repository
-    gitPath: source/core-xml-schemas/stroomContent/XML Schemas
+    gitPath: source/core-xml-schemas/stroomContent/XML Schemas/
 
     # Hash of commit to pull
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
@@ -77,7 +77,7 @@ contentPacks:
       A set of standard data-format-agnostic pipelines for processing data.
     gitUrl: https://github.com/gchq/stroom-content.git
     gitBranch: planb
-    gitPath: source/standard-pipelines/stroomContent/Standard_Pipelines
+    gitPath: source/standard-pipelines/stroomContent/Standard_Pipelines/
     gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
 
   -
