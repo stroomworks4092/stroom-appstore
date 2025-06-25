@@ -296,9 +296,10 @@ contentPacks:
       tightly integrated with it and can easily be used in other
       applications as long as the data contract and API are met.
 
-    gitUrl: https://github.com/gchq/stroom-visualisations-dev.git
+    gitRepoName: Visualisations
+    gitUrl: https://github.com/stroomworks4092/stroom-visualisations-dev.git
     gitBranch: 7.2
     gitPath: war/stroom-content/Visualisations
-    gitCommit: d95c1588bc13a697a818bffea6ed213239a1f993
-    gitNeedsAuth: true
+    gitCommit:
+    gitNeedsAuth: false
 
