@@ -29,7 +29,7 @@ contentPacks:
     uiName: XML Schemas
 
     # Where to get the icon. Must be SVG.
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/core-xml-schemas.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/core-xml-schemas/core-xml-schemas.svg
 
     # Name of the license
     licenseName: Apache 2.0
@@ -50,16 +50,16 @@ contentPacks:
       The core XML Schemas required by Stroom for basic operation.
 
     # Git repository URL
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
 
     # Branch within repository
     gitBranch: planb
 
     # Path within repository
-    gitPath: source/core-xml-schemas/stroomContent/XML Schemas/
+    gitPath: source/core-xml-schemas/stroomContent/
 
     # Hash of commit to pull
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitCommit:
 
     # Whether git needs authentication to pull this content pack. Default is false.
     gitNeedsAuth: false
