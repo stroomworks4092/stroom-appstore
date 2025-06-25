@@ -26,10 +26,10 @@ contentPacks:
     id: core-xml-schemas
 
     # Name as shown in the UI
-    uiName: XML Schemas
+    uiName: Core XML Schemas
 
     # Where to get the icon. Must be SVG.
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/core-xml-schemas/core-xml-schemas.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/core-xml-schemas/content-pack-icon.svg
 
     # Name of the license
     licenseName: Apache 2.0
@@ -38,10 +38,10 @@ contentPacks:
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
 
     # Where this will be installed in Stroom
-    stroomPath: /
+    stroomPath: /XML Schemas/
 
     # Name of the Git Repo item to create. Defaults to the uiName.
-    gitRepoName: XML Schemas
+    gitRepoName: core
 
     # Markdown description of the content pack
     details: |
@@ -67,7 +67,7 @@ contentPacks:
   -
     id: standard-pipelines
     uiName: Standard Pipelines
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/standard-pipelines.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/standard-pipelines/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /
@@ -75,15 +75,17 @@ contentPacks:
       # Standard Pipelines
 
       A set of standard data-format-agnostic pipelines for processing data.
-    gitUrl: https://github.com/gchq/stroom-content.git
+
+    gitRepoName: Standard Pipelines
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/standard-pipelines/stroomContent/Standard_Pipelines/
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/standard-pipelines/stroomContent/
+    gitCommit:
 
   -
     id: event-logging-xml-schema
     uiName: Event Logging XML Schema
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/event-logging-xml-schema.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/event-logging-xml-schema/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /XML Schemas/
@@ -91,15 +93,16 @@ contentPacks:
       # Event Logging XML Schema
 
       An XML Schema standard for describing audit events.
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitRepoName: event-logging
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/event-logging-xml-schema/stroomContent/event-logging
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/event-logging-xml-schema/stroomContent/
+    gitCommit:
 
   -
     id: example-index
     uiName: Example Index
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/example-index.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/example-index/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /
@@ -108,15 +111,15 @@ contentPacks:
 
       A basic Stroom index designed for event-logging XML.
     gitRepoName: Indexes
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/example-index/stroomContent/Indexes
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/example-index/stroomContent/
+    gitCommit:
 
   -
     id: internal-dashboards
     uiName: Internal Dashboards
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-dashboards.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/internal-dashboards/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /
@@ -126,16 +129,16 @@ contentPacks:
       A set of Dashboard entities for displaying various metrics
       about the state of the Stroom application and the underlying
       hardware and file systems.
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitRepoName: Internal Dashboards
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/internal-dashboards/stroomContent/Internal Dashboards
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/internal-dashboards/stroomContent/
+    gitCommit:
 
   -
     id: internal-statistics-sql
     uiName: Internal Statistics (SQL)
-    gitRepoName: SQL
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-statistics-sql.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/internal-statistics-sql/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /Internal Statistics
@@ -145,15 +148,16 @@ contentPacks:
       A set of StatisticStore entities for representing the internal
       statistics generated by Stroom and recorded by the SQL Statistics
       service.
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitRepoName: SQL
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/internal-statistics-sql/stroomContent/Internal Statistics/SQL
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/internal-statistics-sql/stroomContent/
+    gitCommit:
 
   -
     id: internal-statistics-stroom-stats
     uiName: Stroom-Stats
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/internal-statistics-stroom-stats.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/internal-statistics-stroom-stats/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /Internal Statistics
@@ -162,15 +166,16 @@ contentPacks:
 
       A set of StroomStatsStore entities for representing the internal
       statistics generated by Stroom and recorded by the Stroom-Stats service.
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitRepoName: Stroom-Stats
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/internal-statistics-stroom-stats/stroomContent/Internal Statistics/Stroom-Stats
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/internal-statistics-stroom-stats/stroomContent/
+    gitCommit:
 
   -
     id: stroom-101
     uiName: Stroom 101
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/stroom-101.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/stroom-101/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /
@@ -183,16 +188,16 @@ contentPacks:
       - CSV splitter
       - CSV to XML pipeline
       - XSLT
-
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitRepoName: Stroom 101
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/stroom-101/stroomContent/Stroom 101
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/stroom-101/stroomContent/
+    gitCommit:
 
   -
     id: stroom-logs
     uiName: Internal Logs
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/stroom-logs.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/stroom-logs/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /
@@ -200,15 +205,16 @@ contentPacks:
       # Internal Logs
 
       This content pack contains feeds for receiving the logs from within the Stroom family of applications.
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitRepoName: Internal Logs
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/stroom-logs/stroomContent/Internal_Logs
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/stroom-logs/stroomContent/
+    gitCommit:
 
   -
     id: template-pipelines
     uiName: Template Pipelines
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/template-pipelines.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/template-pipelines/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /
@@ -216,38 +222,41 @@ contentPacks:
       # Template Pipelines
 
       A set of template pipelines that other pipelines can inherit from.
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitRepoName: Template Pipelines
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/template-pipelines/stroomContent/Template_Pipelines
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/template-pipelines/stroomContent/
+    gitCommit:
 
   -
     id: state
     uiName: State
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/state.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/state/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /
     details: |
       # State
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitRepoName: State
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/state/stroomContent/State
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/state/stroomContent/
+    gitCommit:
 
   -
     id: planb
     uiName: Plan B
-    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-appstore/refs/heads/main/planb.svg
+    iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/planb/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
     stroomPath: /
     details: |
       # Plan B
-    gitUrl: https://github.com/gchq/stroom-content.git
+    gitRepoName: Plan B
+    gitUrl: https://github.com/stroomworks4092/stroom-content.git
     gitBranch: planb
-    gitPath: source/planb/stroomContent/Plan B
-    gitCommit: e4081362f006bed7f14f376a2049ccbcb56b1144
+    gitPath: source/planb/stroomContent/
+    gitCommit:
 
   -
     id: stroom-visualisations
