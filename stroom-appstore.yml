@@ -59,7 +59,7 @@ contentPacks:
     gitPath: source/core-xml-schemas/stroomContent/
 
     # Hash of commit to pull
-    gitCommit: xxxxx
+    gitCommit:
 
     # Whether git needs authentication to pull this content pack. Default is false.
     gitNeedsAuth: false
