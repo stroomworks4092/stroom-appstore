@@ -300,6 +300,6 @@ contentPacks:
     gitUrl: https://github.com/stroomworks4092/stroom-visualisations-dev.git
     gitBranch: 7.2
     gitPath: war/stroom-content/Visualisations
-    gitCommit:
+    gitCommit: d95c1588bc13a697a818bffea6ed213239a1f993
     gitNeedsAuth: false
 
