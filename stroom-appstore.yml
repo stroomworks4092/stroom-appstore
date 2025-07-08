@@ -38,10 +38,10 @@ contentPacks:
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
 
     # Where this will be installed in Stroom
-    stroomPath: /XML Schemas/
+    stroomPath: /
 
     # Name of the Git Repo item to create. Defaults to the uiName.
-    gitRepoName: core
+    gitRepoName: XML Schemas
 
     # Markdown description of the content pack
     details: |
@@ -88,12 +88,12 @@ contentPacks:
     iconUrl: https://raw.githubusercontent.com/stroomworks4092/stroom-content/refs/heads/planb/source/event-logging-xml-schema/content-pack-icon.svg
     licenseName: Apache 2.0
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
-    stroomPath: /XML Schemas/
+    stroomPath: /
     details: |
       # Event Logging XML Schema
 
       An XML Schema standard for describing audit events.
-    gitRepoName: event-logging
+    gitRepoName: XML Schemas Event Logging
     gitUrl: "https://github.com/gchq/stroom-content.git"
     gitBranch: "7.10"
     gitPath: source/event-logging-xml-schema/stroomContent/
