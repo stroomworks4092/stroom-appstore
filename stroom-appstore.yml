@@ -38,10 +38,10 @@ contentPacks:
     licenseUrl: https://raw.githubusercontent.com/gchq/stroom-content/refs/heads/master/LICENCE.txt
 
     # Where this will be installed in Stroom
-    stroomPath: /
+    stroomPath: /XML Schemas/
 
     # Name of the Git Repo item to create. Defaults to the uiName.
-    gitRepoName: XML Schemas
+    gitRepoName: core
 
     # Markdown description of the content pack
     details: |
